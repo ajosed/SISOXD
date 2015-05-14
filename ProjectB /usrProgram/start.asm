@@ -6,6 +6,4 @@ start:
 	call _main
 
 Loop: 
-
-
 	jmp Loop
