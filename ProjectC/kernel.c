@@ -89,7 +89,7 @@ void printString(char* chars){
 
 void readFile(char* fileName,char* buffer){
 	
-	char* marioPerra='H';
+	char* prueba='H';
 	int fileFound;
 	int nameCt = 0;
 	int index, k,h;
@@ -98,7 +98,7 @@ void readFile(char* fileName,char* buffer){
 	int i;
 	int buffAddress = 0;
 
-	printChar (marioPerra);
+	printChar (prueba);
 	readSector(buffer, 2);
 	fileFound = strComp(buffer,fileName);
 
